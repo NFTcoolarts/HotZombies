@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;900&family=Pixelify+Sans&display=swap');
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+body{
+  background:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(4,4,74,1) 38%, rgba(0,212,255,1) 100%) ;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	height: 100%;
+  text-align: center;
+  text-decoration:#02f5fd;
+  text-shadow: 0 0 30px #520452;
+  color: rgb(3, 232, 248);
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  font-family:'Kanit', sans-serif;
+  white-space: pre-wrap;
+}
+
+h2 {
+  width: 95%;
+  margin: 60px;
+  font-family: 'Lato', sans-serif;
+  line-height: 80px;
+  font-size: 65px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  align-items: center;
+  position: relative;
+}
+
+/*	
+============
+  Light
+============
+*/
+h2::before {
+  content:"";
+  width: 5%;
+  height: 10px;
+  position: center;
+  top: -200px;
+  left: 10px;
+  transform: rotate(55deg);
+  background: rgba(206,188,155,.7);
+  background: -moz-linear-gradient(left, rgba(206,188,155,.7) 0%, rgba(42,31,25,0) 65%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(206,188,155,.7)), color-stop(65%, rgba(42,31,25,0)));
+  background: -webkit-linear-gradient(left, rgba(206,188,155,.7) 0%, rgba(42,31,25,0) 65%);
+  background: -o-linear-gradient(left, rgba(206,188,155,.7) 0%, rgba(42,31,25,0) 65%);
+  background: -ms-linear-gradient(left, rgba(206,188,155,.7) 0%, rgba(42,31,25,0) 65%);
+  background: linear-gradient(to right, rgba(206,188,155,.7) 0%, rgba(42,31,25,0) 65%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=0.7 ); 
+}
+
+
+
+/*	
+========================
+          3D Effect
+========================
+*/
+#text3d {
+  color: #70869d;
+  letter-spacing: .15em;
+  text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(132, 132, 134, 0.9);
+}
+
+
+.container{
+margin-top: 100px;
+display: inline-flex;
+background-color: #7802ff21;
+padding: 25px;
+color: #faf7f7;
+border-color: #696868;
+border: 5px solid rgb(9, 207, 221);
+border-radius: 1em;
+height: 450px;
+width: 800px;
+position: relative;
+}
+
+.container:hover{
+  background-color:#021bfc6c; 
+  transition: 0.5s;
+    opacity: 0.7;
+
+}
+
+.text{
+  padding-left: 30px;
+  margin-top: 6px;
+  letter-spacing: 0.8px;
+  text-align: start;
+  font-family:'Kanit', sans-serif;
+  margin: 25px, 100px;
+  white-space:initial;
+  color: #f8f8f8;
+}
+
+
+button{
+
+  border: none; 
+  background: #02fff2;
+  color: rgb(7, 7, 7); 
+  padding: 12px 26px; 
+  cursor: pointer; 
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Kanit',Impact,  'Arial Narrow Bold', sans-serif ;
+  font-size: 25px;
+  outline-color: rgba(0, 253, 55, 0.479);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+  border-color: 0 0 20px rgba(25, 62, 223, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+}
+
+button:hover{
+  background-color:hsl(135, 100%, 51%); 
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.Game{
+  margin-top: 100px;
+  display: inline-flex;
+  background-color: #5b02ff21;
+  padding: 25px;
+  color: #f7f7f7;
+  border-color: #080808;
+  border: 5px solid rgb(193, 7, 240);
+  border-radius: 1em;
+  height: 450px;
+  width: 750px;
+  position: relative;
+  }
+
+  .Game:hover{
+  background-color:#7f40f593; 
+  transition: 0.5s;
+  opacity: 0.7;
+  }
+
+.ing_game{
+  align-content: center;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  text-align: start;
+  font-family:'Kanit', sans-serif;
+  margin: 20px, 100px;
+  white-space:initial;
+
+}
+
+footer{
+  margin:0;
+  padding: 0;
+  position:absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.contenedorf, .redess,
+.atributos , .copy {
+  color: #ffffff;
+  position:static;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.redess {
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+li{
+  list-style:none;
+  margin: 0 15px;
+}
+
+li a {
+  position: center;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: #030170;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #3bf5fc;
+  transition: .5s;
+}
+
+li a:before {
+  content: '';
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: #0213ff;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+li a:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ea06ff;
+  filter: blur(3px);
+}
+
+li a:hover {
+  color: #ff02ea;
+  box-shadow: 0 0 15px #d502ff;
+  text-shadow: 0 0 15px #ff03ea;
+}
+
+/* Responsive Design - adaptable a dispositivos moviles*/
+
+@media screen and (max-width: 823px) {
+header .text .ing_game{
+    max-width:700px;
+    padding: 10px 2px;
+    margin-top: 5%;
+    margin: 2px;
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width:717px){
+.container ,.Game {
+      max-width:90%;
+      padding: 10px 20px;
+      margin-top: 90px;
+      margin: 25px;
+      font-size: 50px;
+      height: 90%;
+      width: 600vh;
+      flex-direction: column;
+}
+}
+
+@media screen and (max-width:728px){
+  .text{
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 593px){
+  #text3d { 
+    max-width:300px;
+        padding: 5px 15px;
+        margin-top: 10%;
+        margin: 5px;
+        align-items: center;
+}
+}
+
+
+@media screen and (max-width: 805px){
+  .info_game {
+    max-width:700px;
+        padding: 10px 2px;
+        margin-top: 5%;
+        margin: 50px;
+        align-items: center;
+}
+}
+
+@media screen and (max-width: 428px){
+  .contenedorf
+  .redess{
+        max-width:370px;
+        padding: 10%;
+        margin-top: 10%;
+        margin: 1px;
+        size: 10px;
+  }
+}
+
+
